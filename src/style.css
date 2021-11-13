@@ -7,3 +7,33 @@ body {
     background-color: #23252C;
     color: #fff;
 }
+
+.app {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #1A1B21;
+    border-radius: 50px;
+}
+
+.portrait {
+    width: 300px;
+}
+
+.name--headline {
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -.05rem;
+    margin: 0;
+}
+
+.name--subhead {
+    color: #F3BF99;
+    font-size: 0.75rem;
+    margin: 0.2em;
+    font-weight: 300;
+}
