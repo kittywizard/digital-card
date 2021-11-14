@@ -42,19 +42,18 @@ body {
     font-weight: 700;
     letter-spacing: -.05rem;
     margin: 0;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .name--subhead {
     color: #F3BF99;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin: 0.2em;
     font-weight: 300;
 }
 
 .name--website {
     font-size: 0.75rem;
-    
     margin: 0.5em;
 }
 
@@ -70,14 +69,20 @@ body {
     font-weight: 600;
 }
 
+/* 
+        BUTTONS
+*/
+
 .btn {
     border: unset;
     font-family: 'Inter', sans-serif;
     font-weight: 600;
     background: #F5F5F5;
-    padding: 0.5em 1em;
+    padding: 0.75em 2em;
     margin: 0.75em;
     border-radius: 8px;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 
 .btn-li {
@@ -85,10 +90,17 @@ body {
     color: #fff;
 }
 
+.btn:hover,
+.btn:focus,
+.footer-icon:hover,
+.footer-icon:focus {
+    cursor: pointer;
+    filter: drop-shadow(3px 3px 8px black);
+}
+
 /* 
         INFO SECTIONS
 */
-
 
 .section {
     margin: 0.5em 2em;
@@ -122,4 +134,5 @@ body {
 .footer-icon {
     color: #918E9B;
     font-size: 50px;
+    cursor: pointer;
 }
