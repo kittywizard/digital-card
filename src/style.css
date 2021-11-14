@@ -20,6 +20,10 @@ body {
     border-radius: 50px;
 }
 
+.header {
+    text-align: center;
+}
+
 .portrait {
     width: 300px;
 }
@@ -29,11 +33,74 @@ body {
     font-weight: 700;
     letter-spacing: -.05rem;
     margin: 0;
+    font-size: 2rem;
 }
 
 .name--subhead {
     color: #F3BF99;
-    font-size: 0.75rem;
+    font-size: 1rem;
     margin: 0.2em;
     font-weight: 300;
+}
+
+.name--website {
+    font-size: 0.75rem;
+    
+    margin: 0.5em;
+}
+
+.name--url {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.name--url:hover,
+.name--url:focus {
+    color: #5093E2;
+    font-weight: 600;
+}
+
+.btn {
+    border: unset;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    background: #F5F5F5;
+    padding: 0.5em 1em;
+    margin: 0.75em;
+    border-radius: 8px;
+}
+
+.btn-li {
+    background: #5093E2;
+    color: #fff;
+}
+
+.section {
+    margin: 1em;
+}
+
+.section--headline {
+    font-size: 1.45rem;
+    margin: 0.3em 0;
+}
+
+.footer {
+    background-color: #161619;
+    width: 100%;
+    border-radius: 0 0 50px 50px;
+    height: 100vh;
+    padding: 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    padding: 1em;
+}
+
+.footer-icon {
+    width: 50px;
 }
