@@ -1,3 +1,8 @@
+
+/* 
+        GENERAL
+*/
+
 * {
     box-sizing: border-box;
 }
@@ -19,6 +24,10 @@ body {
     background: #1A1B21;
     border-radius: 50px;
 }
+
+/* 
+        HEADER
+*/
 
 .header {
     text-align: center;
@@ -76,14 +85,23 @@ body {
     color: #fff;
 }
 
+/* 
+        INFO SECTIONS
+*/
+
+
 .section {
-    margin: 1em;
+    margin: 0.5em 2em;
 }
 
 .section--headline {
     font-size: 1.45rem;
     margin: 0.3em 0;
 }
+
+/* 
+        FOOTER
+*/
 
 .footer {
     background-color: #161619;
@@ -102,5 +120,6 @@ body {
 }
 
 .footer-icon {
-    width: 50px;
+    color: #918E9B;
+    font-size: 50px;
 }
